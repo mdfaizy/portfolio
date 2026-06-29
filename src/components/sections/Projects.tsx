@@ -7,6 +7,7 @@ import projectRestaurant from "@/assets/project-restaurant.jpg";
 import projectEcommerce from "@/assets/project-ecommerce.jpg";
 import projectSSInfotech from "@/assets/project-ss-image.png";
 import projectMagbee from "@/assets/project-ecommerce.jpg";
+import projectSchoolERP from "@/assets/erp-image.png";
 import projectDoctorAC from "@/assets/project-drac-image.png"; // Import the image for Doctor AC Services
 type Project = {
   title: string;
@@ -56,6 +57,27 @@ const projects: Project[] = [
   demo: "https://ssinfotechservice.com",
   repo: "#", // GitHub private ho to "#" rehne do
 },
+{
+  title: "School SaaS ERP Platform",
+  description:
+    "A comprehensive School ERP SaaS platform for managing students, teachers, attendance, admissions, fees, exams, timetables, and academic records with role-based access control and a responsive admin dashboard.",
+  image: projectSchoolERP,
+  stack: [
+    "Next.js",
+    "React.js",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Redux Toolkit",
+    "Tailwind CSS",
+    "JWT Authentication",
+    "REST APIs",
+  ],
+  category: "Full Stack",
+  demo: "https://your-demo-link.com",
+  repo: "#", // Private repository
+},
   {
     title: "Student Admittance System",
     description: "End-to-end MERN platform for application, review and enrollment workflows.",
@@ -96,7 +118,7 @@ const projects: Project[] = [
     "Tailwind CSS",
   ],
   category: "Frontend",
-  demo: "https://doctoracservices.com", // Apna live URL
+  demo: "https://doctor-ac-services-client-y9xd.vercel.app/", // Apna live URL
   repo: "#", // Private ho to "#" rehne do
 },
 ];

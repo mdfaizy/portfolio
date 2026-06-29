@@ -70,7 +70,7 @@ const Hero = () => {
             }}
             className="text-base sm:text-lg md:text-xl text-muted-foreground font-medium mb-3"
           >
-            Full Stack Developer · MERN Stack Engineer
+           Frontend Developer | Full Stack (MERN) Developer
           </motion.p>
 
           <motion.p
@@ -80,8 +80,9 @@ const Hero = () => {
             }}
             className="text-sm sm:text-base text-muted-foreground/80 max-w-2xl mx-auto mb-10"
           >
-            I build scalable, performant web applications with elegant interfaces
-            and rock-solid architecture — from pixel to production.
+          I craft modern, responsive, and scalable web applications using React.js,
+Next.js, TypeScript, Node.js, Express.js, and MongoDB. Passionate about
+building clean user experiences and high-performance full-stack solutions.
           </motion.p>
 
           <motion.div
@@ -111,9 +112,9 @@ const Hero = () => {
             className="flex items-center justify-center gap-4"
           >
             {[
-              { icon: Github, href: "https://github.com", label: "GitHub" },
-              { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:hello@faizy.dev", label: "Email" },
+              { icon: Github, href: "https://github.com/mdfaizy", label: "GitHub" },
+              { icon: Linkedin, href: "https://linkedin.com/in/mdgmfaizy2002", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:mdgmfaizy@gmail.com", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
