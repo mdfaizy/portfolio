@@ -7,6 +7,7 @@ import projectRestaurant from "@/assets/project-restaurant.jpg";
 import projectEcommerce from "@/assets/project-ecommerce.jpg";
 import projectSSInfotech from "@/assets/project-ss-image.png";
 import projectMagbee from "@/assets/project-ecommerce.jpg";
+import projectDoctorAC from "@/assets/project-drac-image.png"; // Import the image for Doctor AC Services
 type Project = {
   title: string;
   description: string;
@@ -86,8 +87,8 @@ const projects: Project[] = [
   title: "Doctor AC Services",
   description:
     "A modern Frontend AC service booking platform with online booking, service management, WhatsApp integration, and responsive UI.",
-  // image: projectDoctorAC, // Add the image import for Doctor AC Services
-  image: "https://via.placeholder.com/400x300.png?text=Doctor+AC+Services", // Placeholder image
+  image: projectDoctorAC, // Add the image import for Doctor AC Services
+  
   stack: [
     "Next.js",
     "React",
