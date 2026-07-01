@@ -6,7 +6,7 @@ import projectStudent from "@/assets/project-student.jpg";
 import projectRestaurant from "@/assets/project-restaurant.jpg";
 import projectEcommerce from "@/assets/project-ecommerce.jpg";
 import projectSSInfotech from "@/assets/project-ss-image.png";
-import projectMagbee from "@/assets/project-ecommerce.jpg";
+import projectMagbee from "@/assets/e-commerce-pro-image.png";
 import projectSchoolERP from "@/assets/erp-image.png";
 import projectDoctorAC from "@/assets/project-drac-image.png"; // Import the image for Doctor AC Services
 type Project = {
@@ -197,14 +197,13 @@ const visible = showAll
                 className="group rounded-2xl overflow-hidden bg-card border border-border/50 shadow-card hover:shadow-elegant hover:-translate-y-1 transition-smooth"
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-secondary">
-                  <img
-                    src={p.image}
-                    alt={`${p.title} preview`}
-                    loading="lazy"
-                    width={1024}
-                    height={768}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-smooth"
-                  />
+                 <div className="relative h-[280px] overflow-hidden bg-secondary flex items-center justify-center">
+  <img
+    src={p.image}
+    alt={p.title}
+    className="w-full h-full object-contain group-hover:scale-105 transition-all duration-300"
+  />
+</div>
                   <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-smooth" />
                 </div>
                 <div className="p-6">
